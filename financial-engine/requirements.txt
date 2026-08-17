@@ -1,0 +1,20 @@
+# quant_core
+torch>=2.0
+torchsde
+cvxpy
+scipy
+numpy
+pandas
+
+# agents
+sentence-transformers   # e5-base-v2 embeddings
+pydantic>=2.0
+anthropic               # or your LLM API of choice, for sentiment classification
+python-dotenv
+
+# dashboard
+streamlit
+
+# interpretability
+captum                  # Integrated Gradients
+shap
